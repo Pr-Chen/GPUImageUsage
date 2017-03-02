@@ -24,7 +24,6 @@
     
     self.collectionView = [[UICollectionView alloc] initWithFrame:self.view.bounds collectionViewLayout:layout];
     self.collectionView.dataSource = self;
-    self.collectionView.alwaysBounceHorizontal = YES;
     [self.view addSubview:self.collectionView];
     
     [self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"CellID"];

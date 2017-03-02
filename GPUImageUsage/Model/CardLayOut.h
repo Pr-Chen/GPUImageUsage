@@ -15,5 +15,6 @@
 @property (nonatomic, assign) CGSize itemSize;
 @property (nonatomic, assign) CGFloat scale;
 @property (nonatomic, assign) UIEdgeInsets edgeInset;
+@property (nonatomic, assign) UICollectionViewScrollDirection scrollDirection;
 
 @end
